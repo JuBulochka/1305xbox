@@ -228,6 +228,7 @@ main .hero__btn a:nth-child(2) {
 footer {
   border-radius: 4px;
   background: #373a3c;
+  padding-top: 60px;
 }
 
 .footer__menu {
@@ -277,4 +278,65 @@ footer {
   line-height: normal;
   padding-bottom: 40px;
   padding-top: 20px;
+}
+
+
+.hero__ww  {
+  background-image: url(/img/CoD-WWII.png);
+  background-size: 100%;
+  background-size: cover; /* или contain, в зависимости от ваших потребностей */
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100vh;
+  padding-top: 225px;
+}
+
+.hero__ww h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero__ww p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 135px;
+}
+
+
+main .hero__ww .hero__btn a {
+  border-radius: 4px;
+  background: #8dd83d;
+}
+
+
+.present {
+  padding: 100px 0;
+}
+
+.present__ww1, .present__ww2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.present p {
+  color: #435766;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 400px;
+}
+
+.present__ww1 {
+  margin-bottom: 100px;
 }
